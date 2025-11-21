@@ -205,3 +205,213 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+########################
+# JavaScript / TypeScript
+########################
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# Build artifacts
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# Caches
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+.storybook-out/
+storybook-static/
+.fusebox/
+.rpt2_cache/
+.wrangler/
+
+# Frontend framework specifics
+.next/
+out/
+.nuxt/
+.svelte-kit/
+.angular/
+.hugo_build.lock
+
+# Test coverage (JS/TS)
+coverage/
+.nyc_output/
+
+
+###############
+# General logs
+###############
+
+logs/
+log/
+*.log.*
+*.tmp
+*.temp
+
+
+#################
+# OS / Editor junk
+#################
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code workspace (optional)
+# .vscode/
+
+# Local history / backups
+*.swp
+*.swo
+*~
+*.orig
+*.bak
+
+
+##############
+# AI / ML stuff
+##############
+
+# Common model / weight formats
+*.ckpt
+*.ckpt.*
+*.h5
+*.hdf5
+*.keras
+*.tflite
+*.onnx
+*.pb
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Serialized artifacts
+*.pkl
+*.pickle
+*.joblib
+*.dill
+
+# Experiment tracking / logs
+mlruns/           # MLflow runs
+wandb/            # Weights & Biases
+lightning_logs/   # PyTorch Lightning
+tb_logs/          # TensorBoard logs
+tensorboard/
+runs/
+.checkpoints/
+
+# Hugging Face
+.huggingface/
+cache/
+huggingface/
+transformers_cache/
+datasets/
+models/
+
+# Notebooks exports / auto-saves
+*.nbconvert.ipynb
+*.ipynb_checkpoints
+profile_default/
+.ipynb_checkpoints/
+
+
+####################
+# Data / Data science
+####################
+
+# Local datasets (enable selectively)
+#data/
+#data_raw/
+#data/interim/
+#data/processed/
+#datasets/
+#outputs/
+#results/
+
+# Common data formats
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.orc
+*.avro
+*.arrow
+*.h5
+*.db
+*.sqlite
+*.sqlite3
+
+# Big query / exports
+*.bq
+*.sqlitedb
+
+
+################
+# Data engineering
+################
+
+# Spark / Hadoop
+.spark-staging/
+.metastore/
+derby.log
+*.crc
+#spark-warehouse/
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/airflow/
+airflow_logs/
+
+# dbt
+target/
+dbt_packages/
+dbt_modules/
+logs/dbt.log
+
+# Kafka / stream processors
+kafka-logs/
+kafka-data/
+checkpoint/    # Flink / Spark checkpoints
+
+
+###########
+# Docker / CI
+###########
+
+# Docker
+*.pid
+*.pid.lock
+
+# Docker build artifacts
+.docker/
+docker-data/
+tmp/
+
+# CI artifacts
+.github/workflows/*.tmp
+ci-artifacts/
+coverage-report/
+junit-report.xml
